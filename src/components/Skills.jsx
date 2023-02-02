@@ -7,6 +7,7 @@ import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import angular from "../assets/angular.png";
 import materialui from "../assets/materialui.png";
+import nodejs from "../assets/node.png";
 
 const Skills = () => {
   const techs = [
@@ -36,29 +37,36 @@ const Skills = () => {
     },
     {
       id: 5,
+      src: nodejs,
+      title: "Node.js",
+      style: "shadow-green-500",
+    },
+    {
+      id: 6,
       src: tailwind,
       title: "Tailwind",
       style: "shadow-sky-300",
     },
     {
-      id: 6,
+      id: 7,
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",
     },
 
     {
-      id: 7,
+      id: 8,
       src: angular,
       title: "Angular",
       style: "shadow-red-500",
     },
     {
-      id: 8,
+      id: 9,
       src: materialui,
       title: "Material UI",
       style: "shadow-blue-500",
     },
+   
   ];
 
   return (
