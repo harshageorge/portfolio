@@ -8,15 +8,14 @@ import { NavContextProvider } from "./components/nav-context";
 
 function App() {
   return (
-<NavContextProvider>
- <Navbar/>
- <About/>
-<Skills/>
-<Experience/>
- <Work/>
-<Contact/>
-</NavContextProvider>
-   );
+    <NavContextProvider>
+      <Navbar />
+      <About />
+      <Skills />
+      <Experience />
+      <Work />
+      <Contact />
+    </NavContextProvider>
+  );
 }
-
 export default App;
