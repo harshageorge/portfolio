@@ -8,7 +8,7 @@ import { NavContext } from "./nav-context";
 const Navbar = () => {
   const { nav, setNav } = useContext(NavContext);
   return (
-    <div className="fixed w-full h-20 px-4 flex justify-between md:justify-between items-center bg-gradient-to-r from-blue-500 via-[#3b13ab] to-[#280c75]  text-gray-300">
+    <div className="fixed z-10 w-full h-20 px-4 flex justify-between md:justify-between items-center bg-gradient-to-r from-blue-500 via-[#3b13ab] to-[#280c75]  text-gray-300">
       <div>
         <Link to="about" smooth={true} duration={500}>
           <img src={Logo} alt="Logo Image" style={{ width: "60px" }} />
