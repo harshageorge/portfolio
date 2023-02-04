@@ -8,8 +8,11 @@ import tailwind from "../assets/tailwind.png";
 import angular from "../assets/angular.png";
 import materialui from "../assets/materialui.png";
 import nodejs from "../assets/node.png";
+import Navbar from "./Navbar";
+
 
 const Skills = () => {
+
   const techs = [
     {
       id: 1,
@@ -70,30 +73,33 @@ const Skills = () => {
   ];
 
   return (
+    <>
+    <Navbar />
     <div
       name="skills"
-      className="w-full h-screen  text-gray-300 bg-gradient-to-r from-blue-500 via-[#3b13ab] to-[#280c75]"
+      className='w-full h-screen  text-gray-300 bg-gradient-to-r from-blue-500 via-[#3b13ab] to-[#280c75] '
     >
-      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center h-full">
-        <div className="p-8">
+      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center h-full pt-15 gap-y-4">
+        <div className="pt-4 pb-2">
           <p className="text-2xl md:text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
             Skills
           </p>
         </div>
 
-        <div className="md:w-full grid grid-cols-2 sm:grid-cols-3 gap-2 md:gap-6 text-center px-2 py-2 md:py-8 md:px-12 sm:px-0 ">
+        <div className="md:max-w-[900px] grid grid-cols-2 sm:grid-cols-3 gap-2 md:gap-4 text-center justify-center px-2 py-2  md:px-10 sm:px-0 ">
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}
-              className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg  h-30 md:h-40 ${style}`}
+              className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
             >
-              <img src={src} alt="" className="w-1/5 md:w-20 mx-auto " />
-              <p className="text-xs md:text-sm mt-2 md:mt-6">{title}</p>
+              <img src={src} alt="" className="w-1/5 md:w-10 mx-auto " />
+              <p className="text-xs md:text-sm mt-2 md:mt-4">{title}</p>
             </div>
           ))}
         </div>
       </div>
     </div>
+    </>
   );
 };
 

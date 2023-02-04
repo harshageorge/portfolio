@@ -7,17 +7,17 @@ const Experience = () => {
       name="experience"
       className="w-full h-screen text-gray-300 bg-[#ecebf0]"
     >
-      <div className="max-w-[370px]  md:max-w-[1000px] mx-auto pl-10 pr-5 pt-10 pb-5 md:p-10 flex flex-col justify-center h-full">
-        <div className="pt-10 md:pb-4 pb-2">
-          <p className="text-2xl md:text-4xl  font-bold border-b-4 inline border-[#141a4f] text-[#280c75]">
+      <div className="max-w-[370px]  md:max-w-[1000px] mx-auto pl-10 pr-5 pt-10 pb-5 md:p-4 flex flex-col justify-center gap-y-3 h-full">
+        <div className="pt-10 md:pb-3 pb-2">
+          <p className="text-2xl md:text-4xl font-bold border-b-4 inline border-[#141a4f] text-[#280c75]">
             Experience
           </p>
         </div>
         {nav ? (
           "hidden"
         ) : (
-          <ol class="relative border-l border-gray-200 p-5 dark:border-gray-700">
-            <li class="mb-4 ml-2 md:mb-10 md:ml-6">
+          <ol class="relative border-l border-gray-200 p-2 dark:border-gray-700 ">
+            <li class="mb-4 ml-2 md:mb-6 md:ml-6">
               <span class="absolute flex items-center justify-center w-4 h-4 md:w-6 md:h-6 bg-blue-100 rounded-full -left-2 md:-left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
                 <svg
                   fill="none"
@@ -44,7 +44,7 @@ const Experience = () => {
                 Software Engineer
               </p>
             </li>
-            <li class="mb-4 ml-2 md:mb-10 md:ml-6">
+            <li class="mb-4 ml-2 md:mb-6 md:ml-6">
               <span class="absolute flex items-center justify-center w-4 h-4 md:w-6 md:h-6 bg-blue-100 rounded-full -left-2 md:-left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
                 <svg
                   fill="none"
@@ -71,7 +71,7 @@ const Experience = () => {
                 MEARN stack web development
               </p>
             </li>
-            <li class="mb-4 ml-2 md:mb-10 md:ml-6">
+            <li class="mb-4 ml-2 md:mb-6 md:ml-6">
               <span class="absolute flex items-center justify-center w-4 h-4 md:w-6 md:h-6 bg-blue-100  rounded-full md:-left-3 -left-2  ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
                 <svg
                   fill="none"
@@ -98,7 +98,7 @@ const Experience = () => {
                 Master of Technology (VLSI & Embedded systems)
               </p>
             </li>
-            <li class="mb-4 ml-2 md:mb-10 md:ml-6">
+            <li class="mb-4 ml-2 md:mb-6 md:ml-6">
             <span class="absolute flex items-center justify-center w-4 h-4 md:w-6 md:h-6 bg-blue-100  rounded-full md:-left-3 -left-2  ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
                 <svg
                   fill="none"

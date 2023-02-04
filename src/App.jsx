@@ -9,7 +9,7 @@ import { NavContextProvider } from "./components/nav-context";
 function App() {
   return (
     <NavContextProvider>
-      <Navbar />
+     <Navbar/>
       <About />
       <Skills />
       <Experience />

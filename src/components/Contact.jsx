@@ -6,8 +6,8 @@ const Contact = () => {
       name="contact"
       className="w-full h-screen text-gray-900 bg-[#ecebf0]"
     >
-      <div className="max-w-[370px]  md:max-w-[1000px] mx-auto  pl-5 pr-5 pt-10 pb-5 md:p-10 flex flex-col justify-center h-full">
-        <div className="p-4 md:p-10">
+      <div className="max-w-[370px]  md:max-w-[1000px] mx-auto  pl-5 pr-5 pt-10 pb-5 md:p-6 flex flex-col justify-center gap-y-2 h-full">
+        <div className="pt-10 pb-2">
           <p className="text-2xl md:text-4xl font-bold border-b-4 inline border-[#141a4f] text-[#280c75]">
             Contact
           </p>
@@ -32,7 +32,7 @@ const Contact = () => {
           <textarea
             className="bg-blue-200  p-2"
             name="message"
-            rows="10"
+            rows="8"
             placeholder="Message"
           ></textarea>
           <button className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4

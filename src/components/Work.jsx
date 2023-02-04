@@ -8,8 +8,8 @@ const Work = () => {
       name="works"
       className="w-full h-screen text-gray-300 bg-gradient-to-r from-blue-500 via-[#3b13ab] to-[#280c75]"
     >
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
-        <div className="p-6">
+      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full gap-y-4">
+        <div className="p-4">
           <p className="text-2xl md:text-4xl font-bold inline border-b-4 text-gray-300  border-gray-500 ">
             Works
           </p>
