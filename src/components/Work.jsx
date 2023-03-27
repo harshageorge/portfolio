@@ -31,7 +31,7 @@ const Work = () => {
               />
             </div>
             <div className="flex justify-around md:p-8 p-2">
-              <a href="https://ecommerce-2-responsive-harshageorge.vercel.app/">
+              <a href="https://ecommerce-2-responsive.vercel.app/">
                 <button
                   type="button"
                   class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-xs md:text-sm md:px-5 md:py-2.5 text-center md:mr-2 md:mb-2 px-2 py-1 mr-1 mb-1"
@@ -65,7 +65,7 @@ const Work = () => {
               />
             </div>
             <div className="flex justify-around md:p-8 p-2">
-              <a href="https://data-visualisation-six.vercel.app/" className="justify-center">
+              <a href="https://data-visualisation-harshageorge.vercel.app/" className="justify-center">
                 <button
                   type="button"
                   class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-xs md:text-sm  md:px-5 md:py-2.5 text-center md:mr-2 md:mb-2 px-2 py-1 mr-1 mb-1 "

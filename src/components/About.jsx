@@ -15,7 +15,7 @@ const About = () => {
           I am a Full Stack Developer{" "}
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px]">
-          I like to build amazing responsive web applications. I love exploring
+          I like to build amazing responsive web and mobile applications. I love exploring
           and creating.{" "}
         </p>
         <div className="flex items-center space-x-3 ">
