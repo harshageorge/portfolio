@@ -70,6 +70,7 @@ const Skills = () => {
       style: "shadow-blue-500",
     },
    
+   
   ];
 
   return (
@@ -92,8 +93,8 @@ const Skills = () => {
               key={id}
               className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
             >
-              <img src={src} alt="" className="w-1/5 md:w-10 mx-auto " />
-              <p className="text-xs md:text-sm mt-2 md:mt-4">{title}</p>
+              <img src={src} alt="" className="w-1/5 md:w-10 mx-auto xl:w-16 " />
+              <p className="text-xs xl:text-xl mt-2 md:mt-4">{title}</p>
             </div>
           ))}
         </div>
