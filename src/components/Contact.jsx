@@ -6,8 +6,8 @@ const Contact = () => {
       name="contact"
       className="w-full h-screen text-gray-900 bg-[#ecebf0]"
     >
-      <div className="max-w-[370px]  md:max-w-[1000px] mx-auto  pl-5 pr-5 pt-10 pb-5 md:p-6 flex flex-col justify-center gap-y-2 h-full">
-        <div className="pt-12 pb-2">
+      <div className="max-w-[1240px] mx-auto px-6 py-16">
+        <div className="pt-16 pb-3">
           <p className="text-2xl md:text-4xl font-bold border-b-4 inline border-[#141a4f] text-[#280c75]">
             Contact
           </p>

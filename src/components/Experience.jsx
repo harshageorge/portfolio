@@ -7,8 +7,8 @@ const Experience = () => {
       name="experience"
       className="w-full h-screen text-gray-300 bg-[#ecebf0]"
     >
-      <div className="max-w-[370px]  md:max-w-[1000px] mx-auto pl-10 pr-5 pt-10 pb-5 p-4 flex flex-col justify-center gap-y-3 h-full ">
-        <div className="pt-10 md:pb-3 pb-2">
+      <div className="max-w-[1240px] mx-auto px-6 py-16 ">
+        <div className="pt-14 pb-2">
           <p className="text-2xl md:text-4xl font-bold border-b-4 inline border-[#141a4f] text-[#280c75]">
             Experience
           </p>
