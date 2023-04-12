@@ -3,7 +3,6 @@ import EcommerceImage from "../assets/online_store.png";
 import ToDoImage from "../assets/todo_image.png";
 import Visualisation from "../assets/data_visualisation.png";
 import Portfolio from  '../assets/portfolio_img.png';
-import { Link } from "react-router-dom";
 const Work = () => {
   return (
     <div
@@ -23,17 +22,17 @@ const Work = () => {
               src={EcommerceImage}
               alt="/"
             />
-            <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
-              <h3 className="text-2xl text-white tracking-wider text-center">
+            <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] p-2">
+              <h3 className="md:text-2xl text-xl text-white tracking-wider text-center">
                 Online Store
               </h3>
-              <p className="pb-4 pt-2 text-white text-center">
+              <p className="md:pb-4 pt-2 text-white text-center">
                 React + Material UI
               </p>
-              <div className="pt-4 p-2 text-center ">
+              <div className="md:pt-4 p-2 text-center flex flex-row ">
                 <a href="https://github.com/harshageorge/online-store">
                   <button
-                    className="text-center rounded-lg px-4 py-3 m-2
+                    className="text-center rounded-lg md:px-4 md:py-3 md:m-2 px-2 py-1 m-1
                bg-white text-gray-700 font-bold text-lg"
                   >
                     Code
@@ -42,7 +41,7 @@ const Work = () => {
 
                 <a href="https://lighthearted-otter-f4c7dc.netlify.app/">
                   <button
-                    className="text-center rounded-lg px-4 py-3 m-2
+                    className="text-center rounded-lg md:px-4 md:py-3 md:m-2 px-2 py-1 m-1
                bg-white text-gray-700 font-bold text-lg"
                   >
                     Demo
@@ -57,17 +56,17 @@ const Work = () => {
               src={Visualisation}
               alt="/"
             />
-            <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
-              <h3 className="text-2xl text-white tracking-wider text-center">
+            <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] p-2">
+              <h3 className="md:text-2xl text-xl text-white tracking-wider text-center">
                 Data Visualisation
               </h3>
-              <p className="pb-4 pt-2 text-white text-center">
+              <p className="md:pb-4 pt-2 text-white text-center">
                 React + Tailwind CSS + Firebase + amCharts
               </p>
-              <div className="pt-4 p-2 text-center ">
+              <div className="md:pt-4 p-2 text-center flex flex-row ">
                 <a href="https://github.com/harshageorge/data-visualisation">
                   <button
-                    className="text-center rounded-lg px-4 py-3 m-2
+                    className="text-center rounded-lg md:px-4 md:py-3 md:m-2 px-2 py-1 m-1
                bg-white text-gray-700 font-bold text-lg"
                   >
                     Code
@@ -76,7 +75,7 @@ const Work = () => {
 
                 <a href="https://data-visualisation-harshageorge.vercel.app/">
                   <button
-                    className="text-center rounded-lg px-4 py-3 m-2
+                    className="text-center rounded-lg md:px-4 md:py-3 md:m-2 px-2 py-1 m-1
                bg-white text-gray-700 font-bold text-lg"
                   >
                     Demo
@@ -92,16 +91,16 @@ const Work = () => {
               alt="/"
             />
             <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
-              <h3 className="text-2xl text-white tracking-wider text-center">
+              <h3 className="md:text-2xl text-xl text-white tracking-wider text-center">
                 To Do List
               </h3>
-              <p className="pb-4 pt-2 text-white text-center">
+              <p className="md:pb-4 pt-2 text-white text-center">
                 React + Bootstrap
               </p>
-              <div className="pt-4 p-2 text-center ">
+              <div className="md:pt-4 p-2 text-center flex flex-row">
                 <a href="https://github.com/harshageorge/todo_list_react">
                   <button
-                    className="text-center rounded-lg px-4 py-3 m-2
+                    className="text-center rounded-lg md:px-4 md:py-3 md:m-2 px-2 py-1 m-1
                bg-white text-gray-700 font-bold text-lg"
                   >
                     Code
@@ -110,7 +109,7 @@ const Work = () => {
 
                 <a href="https://todo-list-react-umber.vercel.app">
                   <button
-                    className="text-center rounded-lg px-4 py-3 m-2
+                    className="text-center rounded-lg md:px-4 md:py-3 md:m-2 px-2 py-1 m-1
                bg-white text-gray-700 font-bold text-lg"
                   >
                     Demo
@@ -126,16 +125,16 @@ const Work = () => {
               alt="/"
             />
             <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
-              <h3 className="text-2xl text-white tracking-wider text-center">
+              <h3 className="md:text-2xl text-xl text-white tracking-wider text-center">
                Portfolio Website
               </h3>
-              <p className="pb-4 pt-2 text-white text-center">
+              <p className="md:pb-4 pt-2 text-white text-center">
                 React + Tailwind
               </p>
-              <div className="pt-4 p-2 text-center ">
+              <div className="md:pt-4 p-2 text-center flex flex-row">
                 <a href="https://github.com/harshageorge/portfolio">
                   <button
-                    className="text-center rounded-lg px-4 py-3 m-2
+                    className="text-center rounded-lg md:px-4 md:py-3 md:m-2 px-2 py-1 m-1
                bg-white text-gray-700 font-bold text-lg"
                   >
                     Code
@@ -144,7 +143,7 @@ const Work = () => {
 
                 <a href="https://portfolio-harshageorge.vercel.app/">
                   <button
-                    className="text-center rounded-lg px-4 py-3 m-2
+                    className="text-center rounded-lg md:px-4 md:py-3 md:m-2 px-2 py-1 m-1
                bg-white text-gray-700 font-bold text-lg"
                   >
                     Demo
